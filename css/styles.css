@@ -798,8 +798,9 @@ textarea:active {
 
 
 .form-label-check span {
+    display: inline-flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
     border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     width: 16px;
@@ -809,9 +810,7 @@ textarea:active {
     fill: transparent;
     
 }
-.chek-span {
-    display: inline-flex;
-}
+
 
 .form-label-check {
     font-size: 12px;
