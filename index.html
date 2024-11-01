@@ -445,7 +445,116 @@
             </li>
           </ul>
         </div>
+        <div class="subscribe">
+          <p class="subscribe-tittle">Subscribe</p>
+          <div class="subscribe-wrapper">
+            <input
+              class="subscribe-input"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="E-mail"
+            />
+            <div class="button-footer-box">
+              <button class="button-footer" type="submit">Subscribe</button>
+              <svg class="subscribe-icon" width="24" height="20">
+                <use href="./images/icons.svg#icon-Telegram"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
       </div>
     </footer>
+    <div class="backdrop is-open">
+      <div class="model">
+        <button class="model-close" type="button">
+          <svg class="model-close-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
+        <p class="model-tittle">
+          Leave your contacts and we will call you back
+        </p>
+        <form class="form">
+          <div class="form-field">
+            <label class="form-label" for="username">Name </label>
+            <div class="form-wrepper">
+              <input
+                class="form-input"
+                type="text"
+                name="username"
+                id="username"
+                required
+                autofocus
+              />
+              <svg class="model-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-person-black"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="form-field">
+            <label class="form-label" for="phone">Phone </label>
+            <div class="form-wrepper">
+              <input
+                class="form-input"
+                type="tel"
+                name="phone"
+                id="phone"
+                required
+                autofocus
+              />
+              <svg class="model-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-phone-black"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="form-field">
+            <label class="form-label" for="email">Email </label>
+            <div class="form-wrepper">
+              <input
+                class="form-input"
+                type="email"
+                name="email"
+                id="email"
+                required
+                autofocus
+              />
+              <svg class="model-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-email-black"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="model-textarea">
+            <label class="form-label" for="comment"> Comment</label>
+            <textarea
+              class="textarea"
+              name="comment"
+              placeholder="Text input"
+              id="comment"
+              rows="5"
+            ></textarea>
+          </div>
+
+          <div class="form-ceck">
+            <input
+              class="form-input-check visually-hidden"
+              type="checkbox"
+              name="policy"
+              value="true"
+              id="policy"
+            />
+            <label class="form-label-check" for="policy"
+              ><span>
+                <svg class="" width="10" height="8">
+                  <use href="./images/icons.svg#icon-Vector"></use>
+                </svg> </span
+              >I accept the terms and conditions of the Privacy Policy
+            </label>
+          </div>
+          <button class="model-btn" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
+<a class="policy-link" href="">Privacy Policy</a>
