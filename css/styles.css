@@ -552,11 +552,9 @@ img {
 
 .form-subscribe {
     display: flex;
-}
-
-.subscribe-label {
     gap: 24px;
 }
+
 
 .subscribe-input {
     border: 1px solid #fff;
@@ -565,11 +563,15 @@ img {
     height: 40px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: transparent;
-    /* margin-right: 24px; */
     padding-left: 16px;
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
+    color: #fff;
+}
+
+::placeholder {
+    color: #fff;
 }
 
 .subscribe-input::placeholder {
@@ -577,7 +579,7 @@ img {
 }
 
 .button-footer {
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     display: flex;
     justify-content: center;
